@@ -1,16 +1,24 @@
 # justifiedImageRows()
 
+![justifiedImageRows](https://raw.githubusercontent.com/polarity/justifiedImageRows/master/justifiedImageRows.jpg)
+
 Resize image elements inside a container until they fit, divided into rows, inside the container. It´s basically the [current flickr photo grid](https://www.flickr.com/photos/polarity). Images in all rows are always matching exactly the container width. It´s very simple and there are currently not many options avaiable.
 
 ## Installing
 
-Download the module via bower
+Download the module via [bower](http://bower.io/)
 
     bower install justifiedImageRows
 
 Append it to you´re page via script tag or use the great [grunt bower_concat](https://github.com/sapegin/grunt-bower-concat) task to automate this task for all bower components:
 
     <script src="bower_components/dist/justifiedImageRows.js"></script>
+
+## Dependencies
+
+[bower](http://bower.io/) takes care of that. if you don´t, then you have to download it manually.
+
+* [calcImageDimensions](https://github.com/polarity/calcImageDimensions)
 
 ## Usage
 
