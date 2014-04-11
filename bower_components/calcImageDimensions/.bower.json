@@ -1,0 +1,37 @@
+{
+  "name": "calcImageDimensions",
+  "version": "0.0.2",
+  "description": "Calculate out of a width, height or both new dimensions of an image while keeping the aspect ratio.",
+  "main": "dist/calcImageDimensions.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "image",
+    "resize",
+    "dimensions",
+    "ratio",
+    "calculate"
+  ],
+  "authors": [
+    "Robert Agthe"
+  ],
+  "license": "MIT",
+  "homepage": "http://scriptshit.de",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "765ae5c2907b61a9d5e5823dfc3f3ac6cb16a817"
+  },
+  "_source": "git://github.com/polarity/calcImageDimensions.git",
+  "_target": "*",
+  "_originalSource": "calcImageDimensions"
+}

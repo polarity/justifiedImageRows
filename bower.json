@@ -1,0 +1,34 @@
+{
+  "name": "justifiedImageRows",
+  "version": "0.0.1",
+  "description": "Resize image elements inside a container until they fit, divided into rows, inside the container. It´s basically the current flickr photo grid.",
+  "main": "dist/justifiedImageRows.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "image",
+    "resize",
+    "dimensions",
+    "ratio",
+    "calculate",
+    "flickr",
+    "photo",
+    "grid"
+  ],
+  "authors": [
+    "Robert Agthe"
+  ],
+  "license": "MIT",
+  "homepage": "http://scriptshit.de",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "calcImageDimensions": "*"
+  }
+}

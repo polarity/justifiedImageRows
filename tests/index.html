@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<script src="vendors/mocha/mocha.js" type="text/javascript" charset="utf-8"></script>
+	<script src="vendors/mocha/should.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+		// This will be overridden by mocha-helper if you run with grunt
+		mocha.setup('bdd');
+	</script>
+
+	<!-- Test Library -->
+	<script src="justifiedImageRows.js" type="text/javascript" charset="utf-8"></script>
+
+	<!-- specs -->
+	<script src="specs/test1.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="vendors/mocha/mocha.css">
+</head>
+<body>
+	<div id="mocha"></div>
+	<div id="test"></div>
+</body>
+</html>
+	<!-- run mocha -->
+	<script type="text/javascript" charset="utf-8">
+		mocha.run();
+	</script>
